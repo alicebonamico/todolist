@@ -7,7 +7,7 @@
     "start": "npm run shell",
     "deploy": "firebase deploy --only functions",
     "logs": "firebase functions:log",
-    "build": "--output build"
+    "build": "node app.js"
   },
   "engines": {
     "node": "12.x"
